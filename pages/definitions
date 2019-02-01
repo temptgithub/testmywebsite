@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Definition lists</title>
+</head>
+
+<body>
+  <a href="../curriculum.pdf" title="curriculum pdf" download="computerVirus">Download the curriculum for MEDA coding class</a>
+
+
+  <nav>
+    <a href="https://www.instructables.com">Instructables</a>
+
+<a href="https://www.yahoo.com">Yahoo</a>  </nav>
+
+<section>
+ Here is a section all about how to cook.
+</section>
+
+  <article>
+    Here is a bio about me....
+  </article>
+
+  <aside>
+    Here are some links to things that I like
+  </aside>
+
+
+<h1>Definitions</h1>
+<dl>
+  <dt>Fish</dt>
+  <dd>A machine that keeps DNA underwater</dd>
+  <dd>An animal that lives in the water and lays eggs.</dd>
+</dl>
+
+
+
+</body>
+
+</html>

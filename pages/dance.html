@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Information form</title>
+  </head>
+  <body>
+    <h2>This is a form for signing up for dance lessons.</h2>
+
+    <form>
+      <!--Text fields-->
+      First Name:<br>
+      <input type="text" required><br>
+      Last Name: <br>
+      <input type="text" required><br>
+
+      <!-- radio buttons-->
+      Distance from dance school<br>
+      <input name = "distance" value="<1" type="radio">Less than a mile<br>
+      <input type="radio" name = "distance" value = "1<5">More than a mile less than five miles<br>
+      <input type ="radio" name="distance" value=">5">More than five miles<br>
+
+
+      <!--Drop-down menu-->
+      <select name = "danceType" size="2" multiple required>
+        <option value="tango">Tango</option>
+        <option value="salsa">Salsa</option>
+        <option value="reggaeton">Reggaeton</select>
+      </select><br>
+      <!--Text Area-->
+      <textarea name="experience" row="10" cols="30" placeholder="Write something">
+      </textarea><br>
+      <textarea name="disclaimer" rows="5" cols="30" disabled>You might die while learning to dance. You enroll in this class at your own risk.</textarea><br>
+
+      <input type="button" value="Click to accept"><br>
+      <input type="date"><br>
+      <input type="password" minlength="8" required>
+      <input type="submit"><br>
+      <input type="email" size="30" pattern=".+@gmail.com"required><br>
+      <label for="help">Do you want someone to help you fill out this form?</label>
+      <input type="checkbox" name="help">
+    </form>
+
+
+
+
+
+  </body>
+</html>

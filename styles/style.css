@@ -1,0 +1,97 @@
+@import <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">;
+#top, #bottom, #left, #right {
+	background: #a5ebff;
+	position: fixed;
+	}
+	#left, #right {
+		top: 10; bottom: 0;
+		width: 115px;
+		}
+		#left { left: 10; }
+		#right { right: 10; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 115px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+body {
+  margin: 0;
+  padding:0;
+  background-color:yellow;
+  color:red;
+  font-family:'Times New Roman', Times, serif;
+  
+}
+
+p { color:black;}
+
+h1 {
+  color:blue;
+  font-size: 1.1em
+/* comments in CSS .   */
+}
+
+h2{font-family: 'Lobster', cursive;
+font-size: 1.2em; 
+color: plurple;
+)
+}
+
+h3 { }
+
+h4 { }
+
+div { 
+color:purple;
+width: 100%;
+height: 100%;
+} 
+
+ /* #special{
+background-color:rgb(128, 0, 75);
+}
+*/
+
+.red{
+
+color:red;
+}
+
+.blinking{
+    animation:blinkingText 8.8s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+ 
+ font-family: 'Lobster', cursive;
+
+ a: hover {
+   "color:pink;"
+ }
+
+
+ img{
+   border-radius:10px;
+ }
+
+.uppercase{
+  text-transform:uppercase;
+}
+
+.bigLetter{
+
+  font-size:30px;
+}
+
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+}
